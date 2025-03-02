@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <path d="M250 50L50 200V450H450V200L250 50Z" stroke="#00b2ff" stroke-width="20" fill="white"/>
+  <path d="M250 100L150 150V200H350V150L250 100Z" fill="#00b2ff"/>
+  <path d="M250 200L200 250V400H250V200Z" fill="#00b2ff"/>
+</svg>
