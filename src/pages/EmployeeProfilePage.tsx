@@ -105,18 +105,6 @@ const EmployeeProfilePage: React.FC = () => {
                   <h2 className="text-xl font-semibold text-fleet-dark mb-2">About</h2>
                   <p className="text-gray-600">{employee.bio}</p>
                 </div>
-                
-                <div>
-                  <h2 className="text-xl font-semibold text-fleet-dark mb-2 flex items-center">
-                    <Award className="h-5 w-5 text-fleet-blue mr-2" />
-                    Certifications
-                  </h2>
-                  <ul className="list-disc list-inside text-gray-600 pl-2">
-                    {employee.certifications.map((cert, index) => (
-                      <li key={index}>{cert}</li>
-                    ))}
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
