@@ -9,42 +9,38 @@ export interface Employee {
   email: string;
   phone: string;
   bio: string;
-  certifications: string[];
   imageUrl: string;
 }
 
 export const employees: Record<string, Employee> = {
-  'emp001': {
-    id: 'emp001',
-    name: 'John Smith',
-    position: 'Senior Solar Installer',
-    location: 'Chicago, IL',
-    email: 'john.smith@fleetsolar.com',
-    phone: '(555) 123-4567',
-    bio: 'John has over 10 years of experience in solar panel installation and is certified in advanced solar technologies. He specializes in residential installations and has completed over 500 projects.',
-    certifications: ['NABCEP Certified PV Installation Professional', 'OSHA 30-Hour Safety Certified'],
-    imageUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80',
-  },
-  'emp002': {
-    id: 'emp002',
-    name: 'Maria Rodriguez',
-    position: 'Solar Energy Consultant',
-    location: 'Dallas, TX',
-    email: 'maria.rodriguez@fleetsolar.com',
+  'rene': {
+    id: 'rene',
+    name: 'René Orozco',
+    position: 'Solar Technician',
+    location: 'Monterrey, MX',
+    email: 'rene.orozco@fleetsolar.com',
     phone: '(555) 234-5678',
-    bio: 'Maria helps customers find the perfect solar solution for their homes and businesses. With a background in renewable energy engineering, she provides expert advice on system design and energy efficiency.',
-    certifications: ['BPI Building Analyst', 'Energy Star Certified Consultant'],
-    imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80',
+    bio: 'René es un técnico especializado en la instalación y mantenimiento de sistemas solares, con amplia experiencia en el sector.',
+    imageUrl: '/src/data/employee-photos/Rene.jpeg'
   },
-  'emp003': {
-    id: 'emp003',
-    name: 'David Chen',
-    position: 'Technical Director',
-    location: 'Chicago, IL',
-    email: 'david.chen@fleetsolar.com',
+  'rodolfo': {
+    id: 'rodolfo',
+    name: 'Rodolfo Calvillo',
+    position: 'Solar Installation Specialist',
+    location: 'Monterrey, MX',
+    email: 'rodolfo.calvillo@fleetsolar.com',
     phone: '(555) 345-6789',
-    bio: 'David oversees all technical aspects of our solar installations. With a Master\'s degree in Electrical Engineering and 15 years in the renewable energy sector, he ensures all projects meet the highest standards of quality and efficiency.',
-    certifications: ['Professional Engineer (PE)', 'LEED AP', 'NABCEP Technical Sales Professional'],
-    imageUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80',
+    bio: 'Rodolfo tiene una sólida experiencia en instalaciones solares residenciales y comerciales, garantizando la máxima eficiencia en cada proyecto.',
+    imageUrl: '/src/data/employee-photos/Rodolfo.jpeg'
   },
+  'kevin': {
+    id: 'kevin',
+    name: 'Kevin Bueno',
+    position: 'Technical Supervisor',
+    location: 'Monterrey, MX',
+    email: 'kevin.bueno@fleetsolar.com',
+    phone: '(555) 456-7890',
+    bio: 'Kevin supervisa las instalaciones técnicas y asegura que todos los proyectos cumplan con los más altos estándares de calidad.',
+    imageUrl: '/src/data/employee-photos/Kevin.jpeg'
+  }
 };
